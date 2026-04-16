@@ -1,0 +1,8 @@
+$:note("48 52 55 59").sound("piano")
+$:note("48 52 55 59").sound("jazz")
+$:note("[36 34 41 39]/4").sound("gm_acoustic_bass")
+$:note("48 52").sound("metal")
+$:note("<[c3,eb3,g3] [f3,a3,c4]>").room(.5)
+note("48 52 55 59").sound("jazz").lpf("400 2000")
+note ("24 46 59").sound ("casio")
+sound("jazz")
